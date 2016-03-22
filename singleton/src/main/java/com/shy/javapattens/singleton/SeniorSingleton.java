@@ -10,7 +10,7 @@ public class SeniorSingleton {
 
     public static SeniorSingleton getInstance(){
         if(seniorSingleton==null){
-            synchronized (seniorSingleton){
+            synchronized (SeniorSingleton.class){
                 if(seniorSingleton==null){
                     seniorSingleton = new SeniorSingleton();
                 }
