@@ -1,13 +1,15 @@
 package com.shy.javapattens.observer;
 
-import java.util.Vector;
+import org.junit.Test;
 
 /**
- * Created by 29517 on 2016/2/25.
+ * Created by 29517 on 2016/3/22.
  */
 public class Client {
-    //定义目标者与观察者
-    public static void main(String[] args) {
+
+    @Test
+    public void test() {
+        //定义目标者与观察者
         OldDog oldDog = new OldDog();
 
         for (int i = 0; i < 10; i++) {
